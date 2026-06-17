@@ -1,0 +1,7 @@
+1. Motor mounting holes placement
+2. Motor Omni Wheel coupling
+3. Use https://fluxelectronix.com/shop/m5-knurled-brass-threaded-insert-nut/ for screw holes for 3d prints
+4. Driver mounting holes
+5. Rod length
+6. check ball contact with Omni wheels
+7. Rod support holes

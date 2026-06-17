@@ -1,0 +1,85 @@
+# ═══════════════════════════════════════════════════════════
+# Ballbot GP — .gitignore
+# Covers: STM32CubeIDE, ROS2, MATLAB, Python, KiCad, OS files
+# ═══════════════════════════════════════════════════════════
+
+# ── STM32CubeIDE / Eclipse ──────────────────────────────────
+firmware/Debug/
+firmware/Release/
+firmware/*.elf
+firmware/*.bin
+firmware/*.hex
+firmware/*.map
+firmware/**/*.o
+firmware/**/*.d
+firmware/**/*.su
+firmware/**/*.cyclo
+firmware/**/*.lst
+.metadata/
+.project
+.cproject
+.settings/
+
+# ── ROS2 workspace ──────────────────────────────────────────
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# ── MATLAB ──────────────────────────────────────────────────
+matlab/**/*.asv
+matlab/**/*.m~
+matlab/**/*.mex*
+matlab/**/*.slxc
+matlab/**/*.slx.r*
+matlab/**/*.autosave
+matlab/codegen/
+matlab/slprj/
+
+# ── Python / ML ─────────────────────────────────────────────
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.log
+
+# ── Large binary / model files (use Git LFS for these) ──────
+*.ncnn.bin
+*.ncnn.param
+*.pt
+*.onnx
+*.weights
+*.pb
+# To track with LFS instead:
+# git lfs track "*.pt" "*.onnx" "*.ncnn.bin"
+
+# ── CAD files — track with Git LFS ──────────────────────────
+# Uncomment these to EXCLUDE (not recommended — use LFS):
+# hardware/cad/*.SLDASM
+# hardware/cad/*.SLDPRT
+# hardware/cad/*.slddrw
+# To use LFS: git lfs track "*.SLDASM" "*.SLDPRT" "*.STEP"
+
+# ── PCB ─────────────────────────────────────────────────────
+hardware/pcb/*.000
+hardware/pcb/**/-backups/
+hardware/pcb/**/*-cache.lib
+
+# ── ROS2 maps (large) ───────────────────────────────────────
+# Store maps outside the repo or use LFS
+ros2_ws/src/ballbot_mapping/maps/**/*.pgm
+
+# ── OS / editor ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/settings.json

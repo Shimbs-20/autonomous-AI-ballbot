@@ -1,0 +1,2 @@
+../Core/Src/Ekf.c:38:6:BallbotEKF_Init	24	static
+../Core/Src/Ekf.c:108:6:BallbotEKF_Update	64	static

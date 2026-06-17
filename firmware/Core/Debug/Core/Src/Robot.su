@@ -1,0 +1,5 @@
+../Core/Src/Robot.cpp:11:1:Robot::Robot(int)	16	static
+../Core/Src/Robot.cpp:18:1:Robot::~Robot()	16	static
+../Core/Src/Robot.cpp:18:1:virtual Robot::~Robot()	16	static
+../Core/Src/Robot.cpp:22:1:Robot::Robot(const Robot&)	16	static
+../Core/Src/Robot.cpp:27:1:Robot::Robot(Robot&&)	16	static

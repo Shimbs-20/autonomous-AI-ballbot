@@ -1,0 +1,79 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c \
+../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c 
+
+C_DEPS += \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.d \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.d 
+
+OBJS += \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.o \
+./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/%.o Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/%.su Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/%.cyclo: ../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/%.c Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/PrivateInclude/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-Middlewares-2f-Third_Party-2f-ARM_CMSIS-2f-CMSIS-2f-NN-2f-Source-2f-NNSupportFunctions
+
+clean-Middlewares-2f-Third_Party-2f-ARM_CMSIS-2f-CMSIS-2f-NN-2f-Source-2f-NNSupportFunctions:
+	-$(RM) ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.su
+	-$(RM) ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.su ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.cyclo ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.d ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.o ./Middlewares/Third_Party/ARM_CMSIS/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.su
+
+.PHONY: clean-Middlewares-2f-Third_Party-2f-ARM_CMSIS-2f-CMSIS-2f-NN-2f-Source-2f-NNSupportFunctions
+
