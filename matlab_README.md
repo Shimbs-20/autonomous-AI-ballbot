@@ -64,20 +64,3 @@ g      = 9.81;   % gravity [m/s²]
 
 ---
 
-## Running the Design
-
-```matlab
-% 1. Derive linearized model
-cd system_model
-run('linearize.m')   % outputs A, B matrices
-
-% 2. Design LQI gains
-cd ../lqi_design
-run('lqi_design.m')  % outputs K_LQI [3×10]
-
-% 3. Verify with full simulation
-cd ../simulation
-open('ballbot_sim.slx')
-sim('ballbot_sim')
-run('../simulation/plot_results.m')
-```
