@@ -64,22 +64,6 @@ The robot operates in four modes:
 |:---:|:---:|:---:|
 | ![mapping](docs/images/slam_map.png) | ![detection](docs/images/hazard_detection.png) | ![dashboard](docs/images/dashboard.png) |
 
----
-
-## Team
-
-| Name | Role |
-|------|------|
-| **Amr Seddeek** | Control System & STM32 Firmware |
-| **Mazen Mahmoud** | EKF Design & MATLAB Simulation |
-| **Amir Farouk** | Mechanical Design & CAD |
-| **Omar Abdelsamad** | PCB Design & Power Electronics |
-| **Youssef Shemela** | ROS2 Navigation & Software Integration |
-| **Kareem Wagdy** | Computer Vision & Web Dashboard |
-
-**Supervisors:** Dr. Hossam H. Ammar · Dr. Moataz El-Sisi  
-**University:** Cairo University — Faculty of Engineering  
-**Program:** Mechatronics & Robotics (QS Ranked #141)
 
 ---
 
